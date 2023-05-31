@@ -15,8 +15,10 @@
 - Tutorial: [This one is very complete](https://wandb.ai/wandb_gen/llm-evaluation/reports/Evaluating-Large-Language-Models-LLMs-with-Eleuther-AI--VmlldzoyOTI0MDQ3)
 
 
-
-
+# For prompting:
+### [Promptsource](https://github.com/bigscience-workshop/promptsource)
+- Provides a few prompt templates, in the form of: `{{premise}} \n Question: Does this imply that "{{hypothesis}}"? Yes, no, or maybe? ||| {{answer_choices[label]}}`.
+- 
 
 
 # Eliminated possibilities

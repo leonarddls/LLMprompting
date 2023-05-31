@@ -9,18 +9,18 @@
 
 # 🗺 How to get there?
 
-### 💾 Load tasks  
+### 💾 Load scenarios : Antoine
 - Load tasks in a common format
 - Format question in each prompt
 _Output: JSON with questions in prompt format
 
-### ⚙ Run LLMs
+### ⚙ Run LLMs: Léo
 _Input: JSON with questions in prompted format  
-- Run the questions
+- Run the questions with the correct Adaptation (cf HELM paper for "adaptation")
 	- This could have to be done in different ways for each prompting method!
-_Output: Answers as text
+_Output: JSON with predicted answers as text and correct answers
 
-### 📈 Evaluate
+### 📈 Metrics: Aymeric
 _Input: Answers as text  
 - Extract answers
 - Being able to evaluate the outputs for different tasks

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻 Libraries.md",
+                "file": "📄 Papers.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Structure our work.md",
+                "file": "📅 Agenda.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0746fe15ed65cdd9",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Structure our work.md",
+                "file": "📄 Papers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Structure our work.md",
+                "file": "📄 Papers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Structure our work.md"
+                "file": "📄 Papers.md"
               }
             }
           }
@@ -159,11 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78e03a286a193a95",
+  "active": "e2426cbaaaa89881",
   "lastOpenFiles": [
+    "images/Pasted image 20230531175916.png",
     "💻 Libraries.md",
     "📄 Papers.md",
-    "Structure our work.md",
-    "Tasks.md"
+    "📅 Agenda.md",
+    "Tasks.md",
+    "images",
+    "images/Pasted image 20230531161013.png",
+    "Structure our work.md"
   ]
 }
