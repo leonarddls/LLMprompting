@@ -12,4 +12,24 @@
 
 # [Eleuther AI Harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/master/scripts)
 
-- 
+- Tutorial: [This one is very complete](https://wandb.ai/wandb_gen/llm-evaluation/reports/Evaluating-Large-Language-Models-LLMs-with-Eleuther-AI--VmlldzoyOTI0MDQ3)
+
+
+
+
+
+
+# Eliminated possibilities
+
+### Build on Tree of thought repos
+- Official repo: https://github.com/ysymyth/tree-of-thought-llm is very small, has a very specific implementation, which makes it efficient but does not help us to generalize
+- [Alternative repo putaclic](https://github.com/kyegomez/tree-of-thoughts): Not versatile enough
+
+### [Huggingface Eval](https://huggingface.co/docs/evaluate/index)
+- Seems to have
+	- Metrics
+	- Methods for training
+	- Pipelines to wrap models
+- But not
+	- Specific tasks
+	- Libraries to call models
