@@ -1,14 +1,30 @@
+## 🎯 Final desired output
+
+| Prompting method | Perf on task group 1 | Perf on task group 2 |  ... | 
+| --- | --- | --- | --- |
+| Chain of Thought | | | |
+| Self-consistency | | | |
+| Least-to-most | | | |
 
 
-# Load tasks
+# 🗺 How to get there?
+
+### 💾 Load tasks  
 - Load tasks in a common format
+- Format question in each prompt
+_Output: JSON with questions in prompt format
 
-# Run LLMs
-- Several different prompts
-- Run the right prompts
+### ⚙ Run LLMs
+_Input: JSON with questions in prompted format  
+- Run the questions
+	- This could have to be done in different ways for each prompting method!
+_Output: Answers as text
 
-# Evaluate
+### 📈 Evaluate
+_Input: Answers as text  
+- Extract answers
 - Being able to evaluate the outputs for different tasks
+
 
 
 # Future directions
